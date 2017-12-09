@@ -26,3 +26,91 @@ header{
     animation-name: slidein;
     animation-duration: 1s;
 }
+#lado_izq{
+    width: 77%;
+    padding: 1% 0 1% 0;
+}
+#lado_der{
+    width: 23%;
+    padding: 2% 0 2% 0;
+}
+#titulo{
+    text-shadow: 2px 2px 2px black;
+    -webkit-text-shadow: 2px 2px 2px black;
+    -moz-text-shadow: 2px 2px 2px black;
+}
+ul{
+    padding: 0% 1 0% 0;
+}
+ul li{
+    display: inline;
+    float:left;
+    padding: 0 5px;
+}
+ul>li>a{
+    text-decoration: underline;
+    color: white;
+}
+#inicio{
+    text-decoration: none;
+}
+#paisajes{
+    text-decoration: none;
+}
+#retratos{
+    text-decoration: none;
+}
+
+#imagenes{
+    display: block;
+}
+#img_dos{
+    display: flex;
+    flex-direction:row;
+    background: #d5c75f;
+    padding: 2%;
+	text-align: center;
+    padding-bottom: 1%;
+}
+#img_dos p{
+    font-size: 1.2em;
+    padding: 1% 0 2% 0;
+}
+#img_dos div p a{
+    color: black;
+    font-weight: bold;
+}
+img{
+    border: 1px solid;
+    box-shadow: 2px 2px 2px #02010a;
+    -webkit-box-shadow: 2px 2px 2px #02010a;
+    -moz-box-shadow: 2px 2px 2px #02010a;
+}
+#img1{
+    padding: 2%;
+    background: #82c3a6;
+    text-align: center;
+    width: 96%;
+}
+#img2 img:hover{
+    box-shadow: 2px 2px 2px #82c3a6;
+    -webkit-box-shadow: 2px 2px 2px #82c3a6;
+    -moz-box-shadow: 2px 2px 2px #82c3a6;
+    border: 2px solid;
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+}
+#img3 img:hover{
+    box-shadow: 2px 2px 2px #82c3a6;
+    -webkit-box-shadow: 2px 2px 2px #82c3a6;
+    -moz-box-shadow: 2px 2px 2px #82c3a6;
+    border: 2px solid;
+    transform: translate(20px,-5px);
+    -webkit-transform: translate(20px,-5px);
+    -moz-transform: translate(20px,-5px);
+}
+#img2, #img3{
+    background: #d5c75f;
+    width: 45%;
+}
