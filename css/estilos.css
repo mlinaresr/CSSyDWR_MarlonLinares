@@ -1,4 +1,4 @@
-{
+*{
     margin: 0 auto;
 }
 @font-face{
@@ -145,4 +145,31 @@ footer{
 #col3 p>a{
     text-decoration: none;
     color: blue;
+}
+#colpaisajes{
+    text-align: center;
+    width: 100%;
+    background: #d5c75f;
+    padding: 0;
+}
+#colpaisajes div{
+    text-align: center;
+    display: inline-block;
+    width: 29%;
+    padding: 2%;
+}
+#pimg1 img{
+    -webkit-filter:blur(10px);
+    -moz-filter:blur(10px);
+    filter:blur(10px);
+}
+#pimg2, #pimg4, #pimg6 img{
+    -webkit-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    filter:grayscale(100%);
+}
+#pimg3 img{
+    -webkit-filter:sepia(90%);
+    -moz-filter:sepia(90%);
+    filter:sepia(90%);
 }
