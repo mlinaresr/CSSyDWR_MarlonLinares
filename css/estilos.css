@@ -1,0 +1,28 @@
+{
+    margin: 0 auto;
+}
+@font-face{
+    font-family: "Dancing Script";
+    src: url("../fuentes/DancingScript-Regular.ttf") format("truetype"),
+         url("../fuentes/DancingScript-Bold.ttf") format("truetype");
+}
+body{
+    background:  black;
+}
+#contenido{
+    width: 900px;
+    background: black;
+    font-family: "Dancing Script", Tahoma;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background: #5b7989;
+    border-radius: 10px 10px  0px 0px;
+    -webkit-border-radius: 10px 10px  0px 0px;
+    -moz-border-radius: 10px 10px  0px 0px;
+    padding: 1%;
+    animation-name: slidein;
+    animation-duration: 1s;
+}
