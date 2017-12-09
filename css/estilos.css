@@ -173,3 +173,50 @@ footer{
     -moz-filter:sepia(90%);
     filter:sepia(90%);
 }
+@media (max-width:899px){
+    #contenido{
+        width: 100%;
+    }
+    #lado_izq, #lado_der{
+        width: 96%;
+    }
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    ul{
+        padding: 0;
+    }
+    ul li{
+        display: inline-block;
+        float: none;
+    }
+    #img_dos, #columnas{
+        flex-direction:column;
+    }
+    #img1, #img2, #img3, #img1 img{
+        width: 96%;
+    }
+    #columnas div{
+        width: 95%;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+    }
+    #colpaisajes div{
+        display: block;
+        width: 94%;
+        text-align: center;
+        padding: 2px 0px 2px 0px;
+    }
+}
+@media (min-width:900px){
+    h1{
+        font-size: 2em;
+    }
+    #img1 img{
+        width: 90%;
+    }
+}
